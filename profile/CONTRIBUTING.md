@@ -1,0 +1,3 @@
+# Hi!
+
+- Hello contributors, My name is Daniel. If you ever find yourself on this page, that means you are probably interesed in contributing to this project. If this is the case then you are noticing that this file is virtually empty. It means i have yet to find the time to write this MD. If you are reading this doc and are eager to contribute, feel free to create an issue on this repo and I will reply. Cheers!

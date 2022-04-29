@@ -44,6 +44,10 @@
 - This is an Open source project. Any new ideas and additions are always welcome.
 - This project should never be turned into a real platform that accepts real money as it is not stable and has alot of security risks.
 
+## For Developers:
+- To contribute to this open source project, please read the contributing docs first.
+- There is a contributing file in this repository and contributing files will be created in each respective repository if interest if given.
+
 ### Application test keys:
 Test the application with these json reqs:
 ```json
