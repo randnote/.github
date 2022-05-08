@@ -31,3 +31,5 @@ For developers trying to get started developing, the first step is to know how t
 6. Start the website:
 
    In the randnotex repository, run ``` yarn run dev``` this will start the nextJS application on port 3000. On the home page, the price of the NOTE should be going up and down at this point. This is a representative of price movements of a cryptoCurrency coin in the real world.
+
+   
