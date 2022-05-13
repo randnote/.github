@@ -54,10 +54,19 @@ Test the application with these json reqs:
 {
     "fromAddress": "f224f9e944b73c51ee9a8140b65e8f06e1422a3fecc4c79fc8577bc80a427ce0",
     "fromAddressPrivateKey": "0465f31d0233efa00f829098040de97d254922bc6730a2f59bee6525e203a5c3f10168be5391b28eb9fa81a0aa87583040c2e9542b7aad50666577b446239d6fc3",
-    "toAddress": "12",
-    "amount": 10
+    "toAddress": "dfgd",
+    "amount": 1
 }
 ```
+
+# Solution on how to create a market...
+- Demand and supply: 
+- allocate a decent amount of funds to the websites account(both monetarily and notes in blockchain).
+
+# How do we actually determine the price...
+- firstly allow the first transaction(to purchase the note- via backend) to go through and then a price will be determined from that.
+- secondly, for every new transaction, setup a limit for the randomly generated users. Setup an upper and a lower limit in order to control price fluctuations.
+
 
 # What still needs to be done?
 - [ ] figure out a way to get rid of the PEM keys and add public and private keys
@@ -65,7 +74,11 @@ Test the application with these json reqs:
 - [ ] write a forever loop that gets a randnom user from the DB and makes a transaction(in this function, get a random value between 1 and max_balance of user to send to another user.) The user that is getting the amount will also be randomly received from the DB.
 - [ ] make an automated miner that fetches a random user in the DB and mines the blocks after every 30 secs or so!
 - [ ] make an automated depositor. - same randomly generated users will make transactions buying and selling the note. Just like how a human user will buy notes on the exchange.
-- [ ] make the backend of the website work- make all routes work...(.)
+- [ ] make the backend of the website work- make all routes work...(
+    - Add, delete, update cards routes...
+    - Store transactions the users have made to purchase the NOTE.
+    - Method to auto delete transactions when we have over 100 plus.
+)
 - [ ] make website design
 - [ ] make website work properly with SOCKET.IO  
 - [ ] make the desktop app work.. make it mine without it stopping... 
