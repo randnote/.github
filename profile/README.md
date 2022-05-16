@@ -59,16 +59,16 @@ Test the application with these json reqs:
 }
 ```
 
-# Solution on how to create a market...
+## Solution on how to create a market...
 - Demand and supply: 
 - allocate a decent amount of funds to the websites account(both monetarily and notes in blockchain).
 
-# How do we actually determine the price...
+## How do we actually determine the price...
 - firstly allow the first transaction(to purchase the note- via backend) to go through and then a price will be determined from that.
 - secondly, for every new transaction, setup a limit for the randomly generated users. Setup an upper and a lower limit in order to control price fluctuations.
 
 
-# What still needs to be done?
+## What still needs to be done?
 - [ ] figure out a way to get rid of the PEM keys and add public and private keys
 - [ ] write a def in python that is able to make trasactions using the users in the database.
 - [ ] write a forever loop that gets a randnom user from the DB and makes a transaction(in this function, get a random value between 1 and max_balance of user to send to another user.) The user that is getting the amount will also be randomly received from the DB.
