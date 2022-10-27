@@ -70,8 +70,8 @@ Test the application with these json reqs:
 
 
 ## What still needs to be done?
-- [ ] figure out a way to get rid of the PEM keys and add public and private keys
-- [ ] write a def in python that is able to make trasactions using the users in the database.
+- [x] figure out a way to get rid of the PEM keys and add public and private keys - Solved by just switching project to typescript
+- [ ] write a function in typescript that is able to make trasactions using the users in the database.
 - [ ] write a forever loop that gets a randnom user from the DB and makes a transaction(in this function, get a random value between 1 and max_balance of user to send to another user.) The user that is getting the amount will also be randomly received from the DB.
 - [ ] make an automated miner that fetches a random user in the DB and mines the blocks after every 30 secs or so!
 - [ ] make an automated depositor. - same randomly generated users will make transactions buying and selling the note. Just like how a human user will buy notes on the exchange.
@@ -83,3 +83,8 @@ Test the application with these json reqs:
 - [ ] make website design
 - [ ] make website work properly with SOCKET.IO  
 - [ ] make the desktop app work.. make it mine without it stopping... 
+
+## How the mining automation algorithm works?
+
+## How the transactions automation algorithm works?
+
