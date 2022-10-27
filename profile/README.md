@@ -37,7 +37,8 @@
 - At random intervals, the same fake users will also try to mine the blocks(provided there are blocks to be mined). 
 
 ## Convertions and money allocations
-- When a user deposits money into the system( They choose to deposit in what currency and choose the value) e.g Sipho deposits R15 or James deposits $1, both are the same value and should both equally purchase 1 RandNote(assuming thats the value of the Note at the time). When the user deposits, their balance will be shown on the system however they would still need to convert their $/R to Notes. 
+- When a user deposits money into the system( They choose to deposit in what currency and choose the value) e.g Sipho deposits R15 or James deposits $1, 
+Both are the same value and should both equally purchase 1 RandNote(assuming thats the value of the Note at the time). When the user deposits, their balance will be shown on the system however they would still need to convert their $/R to Notes. 
 - The system will work just like how any normal system would. If a user decides to sell/buy thier Note, a charge will be made and the company(the website) will earn money.
 
 ## Extras
