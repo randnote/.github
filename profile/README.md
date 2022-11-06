@@ -94,3 +94,4 @@ Test the application with these json reqs:
 - There are too many uneccessary requests. There are places were i could have made requests and saved the response, so that i can use it elsewhere.
 - In frontend, some components hold too much code where it could have been split amongst others or split into the actual page component. - this causes dev to look hard for components instead of it being intuitive.
 - This application does not simulate the website(as a business) charging fees on users when they perform transactions.
+- How the randnote user actually gets its balance is botched... and its botched coz i intentionally manipulated it. e.g when a user buys Notes, i reduce users balance however i do not take that money and give it to the randnote user
