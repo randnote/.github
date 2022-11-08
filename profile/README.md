@@ -44,6 +44,7 @@ Both are the same value and should both equally purchase 1 RandNote(assuming tha
 ## Extras
 - This is an Open source project. Any new ideas and additions are always welcome.
 - This project should never be turned into a real platform that accepts real money as it is not stable and has alot of security risks.
+- Price is manipulated by change in supply and by buy/sells... Buy/sells by taking last n transactions in db and checking if there is more demand or supplys. if ther is more demand then we increase price by a calculated precentage. and vice versa.
 
 ## For Developers:
 - To contribute to this open source project, please read the contributing docs first.
