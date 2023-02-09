@@ -99,3 +99,4 @@ Test the application with these json reqs:
 - This application does not simulate the website(as a business) charging fees on users when they perform transactions.
 - How the randnote user actually gets its balance is botched... and its botched coz i intentionally manipulated it. e.g when a user buys Notes, i reduce users balance however i do not take that money and give it to the randnote user
 - In real blockchains, even if your computer as a note gets disconnected, whenever you reconnect, you still will find your coins/transactions in the blockchain... however ON randnote, there is one sever and I do not store the blockchain externally. This means that if the server goes down for whatever reason, all your transactions also go down with it. lol. Meaning that a server restart will destroy your Notes balance.
+- Some solutions that belongs to the backend, ive implemented in the frontend.
