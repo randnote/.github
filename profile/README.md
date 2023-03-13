@@ -70,23 +70,6 @@ Test the application with these json reqs:
 - secondly, for every new transaction, setup a limit for the randomly generated users. Setup an upper and a lower limit in order to control price fluctuations.
 
 
-## What still needs to be done?
-- [x] figure out a way to get rid of the PEM keys and add public and private keys - Solved by just switching project to typescript
-- [x] write a function in typescript that is able to make trasactions using the users in the database.
-- [ ] write a forever loop that gets a randnom user from the DB and makes a transaction(in this function, get a random value between 1 and max_balance of user to send to another user.) The user that is getting the amount will also be randomly received from the DB.
-- [ ] make an automated miner that fetches a random user in the DB and mines the blocks after every 30 secs or so!
-- [ ] make the backend of the website work- make all routes work...(
-    - Add, delete, update cards routes...
-    - Store transactions the users have made to purchase the NOTE.
-    - Method to auto delete transactions when we have over 100 plus.
-)
-- [x] make website design
-- [ ] make website work properly with SOCKET.IO  
-- [ ] make the desktop app work.. make it mine without it stopping... 
-- [ ] Reduce price of Note when user/users sell coin.
-- [ ] Increase price when they buy the coin
-- [ ] when depositing money in frontend, dont allow user to insert ,commas.... coz they dont work
-
 ## How the mining automation algorithm works?
 
 ## How the transactions automation algorithm works?
